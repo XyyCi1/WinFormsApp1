@@ -45,27 +45,27 @@
             // 
             label1.AutoSize = true;
             label1.BackColor = SystemColors.ActiveCaption;
-            label1.Font = new Font("Segoe UI", 26.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label1.Location = new Point(12, 20);
+            label1.Font = new Font("Century Gothic", 26.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label1.Location = new Point(12, 28);
             label1.Name = "label1";
-            label1.Size = new Size(200, 47);
+            label1.Size = new Size(197, 41);
             label1.TabIndex = 0;
             label1.Text = "USERNAME";
             label1.TextAlign = ContentAlignment.TopCenter;
             // 
             // button1
             // 
-            button1.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button1.Location = new Point(252, 326);
+            button1.Font = new Font("Century Gothic", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button1.Location = new Point(252, 328);
             button1.Name = "button1";
-            button1.Size = new Size(267, 49);
+            button1.Size = new Size(267, 47);
             button1.TabIndex = 1;
             button1.Text = "View Match History";
             button1.UseVisualStyleBackColor = true;
             // 
             // button3
             // 
-            button3.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            button3.Font = new Font("Century Gothic", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
             button3.Location = new Point(292, 392);
             button3.Name = "button3";
             button3.Size = new Size(196, 49);
@@ -75,7 +75,7 @@
             // 
             // button4
             // 
-            button4.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            button4.Font = new Font("Century Gothic", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
             button4.Location = new Point(228, 257);
             button4.Name = "button4";
             button4.Size = new Size(316, 49);

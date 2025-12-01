@@ -1,8 +1,8 @@
 namespace WinFormsApp1
 {
-    public partial class Form1 : Form
+    public partial class LogInMenu : Form
     {
-        public Form1()
+        public LogInMenu()
         {
             InitializeComponent();
         }
@@ -10,6 +10,11 @@ namespace WinFormsApp1
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
             textBox1.PlaceholderText = "Enter text here";
+        }
+
+        private void textBox3_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

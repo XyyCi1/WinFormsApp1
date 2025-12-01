@@ -40,7 +40,7 @@
             // 
             // textBox1
             // 
-            textBox1.Font = new Font("Gill Sans Ultra Bold", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            textBox1.Font = new Font("Century Gothic", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             textBox1.Location = new Point(141, 76);
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(306, 31);
@@ -75,7 +75,7 @@
             // 
             // button1
             // 
-            button1.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button1.Font = new Font("Century Gothic", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             button1.Location = new Point(106, 472);
             button1.Name = "button1";
             button1.Size = new Size(75, 23);
