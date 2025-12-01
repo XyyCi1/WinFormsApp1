@@ -50,11 +50,11 @@
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(138, 245);
+            textBox1.Location = new Point(113, 243);
             textBox1.Multiline = true;
             textBox1.Name = "textBox1";
             textBox1.PlaceholderText = "Username......";
-            textBox1.Size = new Size(174, 30);
+            textBox1.Size = new Size(222, 30);
             textBox1.TabIndex = 0;
             textBox1.TextChanged += textBox1_TextChanged;
             // 
@@ -130,17 +130,17 @@
             // 
             // textBox2
             // 
-            textBox2.Location = new Point(138, 294);
+            textBox2.Location = new Point(113, 294);
             textBox2.Multiline = true;
             textBox2.Name = "textBox2";
             textBox2.PlaceholderText = "Password......";
-            textBox2.Size = new Size(174, 30);
+            textBox2.Size = new Size(222, 30);
             textBox2.TabIndex = 0;
             textBox2.TextChanged += textBox1_TextChanged;
             // 
             // button1
             // 
-            button1.Location = new Point(138, 344);
+            button1.Location = new Point(113, 344);
             button1.Name = "button1";
             button1.Size = new Size(75, 23);
             button1.TabIndex = 4;
@@ -149,7 +149,7 @@
             // 
             // button2
             // 
-            button2.Location = new Point(237, 344);
+            button2.Location = new Point(260, 344);
             button2.Name = "button2";
             button2.Size = new Size(75, 23);
             button2.TabIndex = 4;
