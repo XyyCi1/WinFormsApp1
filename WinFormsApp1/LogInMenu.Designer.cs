@@ -30,34 +30,15 @@ namespace WinFormsApp1
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LogInMenu));
-            button1 = new Button();
-            button2 = new Button();
             pictureBox5 = new PictureBox();
             pictureBox1 = new PictureBox();
-            textBox3 = new TextBox();
-            textBox4 = new TextBox();
+            textBoxUsername = new TextBox();
+            textBoxPassword = new TextBox();
+            button1 = new Button();
+            buttonCreateAcc = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox5).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
-            // 
-            // button1
-            // 
-            button1.Location = new Point(113, 344);
-            button1.Name = "button1";
-            button1.Size = new Size(75, 23);
-            button1.TabIndex = 4;
-            button1.Text = "Log in";
-            button1.UseVisualStyleBackColor = true;
-            button1.Click += button1_Click;
-            // 
-            // button2
-            // 
-            button2.Location = new Point(260, 344);
-            button2.Name = "button2";
-            button2.Size = new Size(75, 23);
-            button2.TabIndex = 4;
-            button2.Text = "Sign in";
-            button2.UseVisualStyleBackColor = true;
             // 
             // pictureBox5
             // 
@@ -78,38 +59,60 @@ namespace WinFormsApp1
             pictureBox1.TabIndex = 6;
             pictureBox1.TabStop = false;
             // 
-            // textBox3
+            // textBoxUsername
             // 
-            textBox3.Font = new Font("Century Gothic", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            textBox3.Location = new Point(141, 247);
-            textBox3.Name = "textBox3";
-            textBox3.PlaceholderText = "Username....";
-            textBox3.Size = new Size(178, 27);
-            textBox3.TabIndex = 7;
-            textBox3.TextChanged += textBox3_TextChanged;
+            textBoxUsername.Font = new Font("Century Gothic", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            textBoxUsername.Location = new Point(141, 247);
+            textBoxUsername.Name = "textBoxUsername";
+            textBoxUsername.PlaceholderText = "Username....";
+            textBoxUsername.Size = new Size(178, 27);
+            textBoxUsername.TabIndex = 7;
+            textBoxUsername.TextChanged += textBox3_TextChanged;
             // 
-            // textBox4
+            // textBoxPassword
             // 
-            textBox4.Font = new Font("Century Gothic", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            textBox4.Location = new Point(141, 291);
-            textBox4.Name = "textBox4";
-            textBox4.PlaceholderText = "Password...";
-            textBox4.Size = new Size(178, 27);
-            textBox4.TabIndex = 8;
+            textBoxPassword.Font = new Font("Century Gothic", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            textBoxPassword.Location = new Point(141, 291);
+            textBoxPassword.Name = "textBoxPassword";
+            textBoxPassword.PlaceholderText = "Password...";
+            textBoxPassword.Size = new Size(178, 27);
+            textBoxPassword.TabIndex = 8;
+            textBoxPassword.TextChanged += textBoxPassword_TextChanged;
+            // 
+            // button1
+            // 
+            button1.Location = new Point(141, 346);
+            button1.Name = "button1";
+            button1.Size = new Size(75, 23);
+            button1.TabIndex = 4;
+            button1.Text = "Log In";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button2_Click;
+            // 
+            // buttonCreateAcc
+            // 
+            buttonCreateAcc.Location = new Point(254, 346);
+            buttonCreateAcc.Name = "buttonCreateAcc";
+            buttonCreateAcc.Size = new Size(121, 23);
+            buttonCreateAcc.TabIndex = 9;
+            buttonCreateAcc.Text = "CreateAccount";
+            buttonCreateAcc.UseVisualStyleBackColor = true;
+            buttonCreateAcc.Click += button2_Click_1;
             // 
             // LogInMenu
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(479, 399);
-            Controls.Add(textBox4);
-            Controls.Add(textBox3);
+            Controls.Add(buttonCreateAcc);
+            Controls.Add(textBoxPassword);
+            Controls.Add(textBoxUsername);
             Controls.Add(pictureBox1);
-            Controls.Add(button2);
             Controls.Add(button1);
             Controls.Add(pictureBox5);
             Name = "LogInMenu";
             Text = "Form1";
+            Load += LogInMenu_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox5).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
@@ -125,11 +128,11 @@ namespace WinFormsApp1
 
         private TextBox textBox1;
         private TextBox textBox2;
-        private Button button1;
-        private Button button2;
         private PictureBox pictureBox5;
         private PictureBox pictureBox1;
-        private TextBox textBox3;
-        private TextBox textBox4;
+        private TextBox textBoxUsername;
+        private TextBox textBoxPassword;
+        private Button button1;
+        private Button buttonCreateAcc;
     }
 }
